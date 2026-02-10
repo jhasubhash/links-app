@@ -1,10 +1,14 @@
 import type { NextConfig } from "next";
 
 const isGitHubPages = process.env.GITHUB_PAGES === "true";
+const basePath = isGitHubPages ? "/links-app" : "";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isGitHubPages ? "/links-app" : "",
+  basePath,
+  env: {
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
   images: {
     unoptimized: true,
   },

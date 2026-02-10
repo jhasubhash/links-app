@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-black text-white">
@@ -8,7 +10,7 @@ export default function Home() {
         <nav className="flex items-center justify-center mb-16">
           <div className="flex items-center gap-3">
             <Image
-              src="/images/app-icon.png"
+              src={`${basePath}/images/app-icon.png`}
               alt="Links App Icon"
               width={48}
               height={48}
@@ -44,7 +46,7 @@ export default function Home() {
       <section className="container mx-auto px-6 py-12">
         <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-blue-500/20 border border-white/10">
           <Image
-            src="/images/home_page.png"
+            src={`${basePath}/images/home_page.png`}
             alt="Links App Main Interface"
             width={1200}
             height={750}
@@ -65,7 +67,7 @@ export default function Home() {
           <div className="space-y-6">
             <div className="rounded-2xl overflow-hidden border border-white/10 shadow-xl">
               <Image
-                src="/images/quick_save.png"
+                src={`${basePath}/images/quick_save.png`}
                 alt="Quick Save Feature"
                 width={600}
                 height={400}
@@ -85,7 +87,7 @@ export default function Home() {
           <div className="space-y-6">
             <div className="rounded-2xl overflow-hidden border border-white/10 shadow-xl">
               <Image
-                src="/images/quick_access_to_bookmarks.png"
+                src={`${basePath}/images/quick_access_to_bookmarks.png`}
                 alt="Quick Access Feature"
                 width={600}
                 height={400}
@@ -105,7 +107,7 @@ export default function Home() {
           <div className="space-y-6">
             <div className="rounded-2xl overflow-hidden border border-white/10 shadow-xl bg-zinc-800/50 p-8 flex justify-center">
               <Image
-                src="/images/access_from_menu_bar.png"
+                src={`${basePath}/images/access_from_menu_bar.png`}
                 alt="Menu Bar Access"
                 width={350}
                 height={450}
@@ -188,7 +190,7 @@ export default function Home() {
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-3">
             <Image
-              src="/images/app-icon.png"
+              src={`${basePath}/images/app-icon.png`}
               alt="Links App Icon"
               width={32}
               height={32}
