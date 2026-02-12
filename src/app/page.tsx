@@ -198,9 +198,13 @@ export default function Home() {
             />
             <span className="font-semibold">Links</span>
           </div>
-          <p className="text-zinc-500 text-sm">
-            © 2026 onesyntax.in
-          </p>
+          <div className="flex items-center gap-4 text-zinc-500 text-sm">
+            <span>&copy; 2026 onesyntax.in</span>
+            <span>&middot;</span>
+            <a href={`${basePath}/privacy`} className="hover:text-zinc-300 transition-colors">
+              Privacy Policy
+            </a>
+          </div>
         </div>
       </footer>
     </div>
