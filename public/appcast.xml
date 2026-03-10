@@ -28,8 +28,8 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/jhasubhash/links-app/releases/download/v1.0.0/Links-1.0.0-arm64.dmg"
-                sparkle:edSignature="sM+J2qj33vihC8/Ra4N628T6HUR6oxe/x7YUT5IliQVTry9SPNgG30Iq/R0Y+X2TPrncCBLPxPFxB/UIOiEdBg=="
-                length="3151694"
+                sparkle:edSignature="pUGzN0PbwqNiB2vJ/SkxXPX4e9DRPh86Hd6FLk8464wqu5kIiZIczL3KRE7K8eqQCSw4WORPNE37eZA6dkXdCw=="
+                length="2284465"
                 type="application/octet-stream" />
         </item>
 
