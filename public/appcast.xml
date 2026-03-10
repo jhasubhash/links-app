@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Links Changelog</title>
+        <link>https://jhasubhash.github.io/links-app</link>
+        <description>Links app update feed</description>
+        <language>en</language>
+
+        <item>
+            <title>Version 1.0.0</title>
+            <link>https://jhasubhash.github.io/links-app</link>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h2>Links 1.0.0 - Initial Release</h2>
+                <ul>
+                    <li>Quick Save from any browser with a keyboard shortcut</li>
+                    <li>Spotlight-like quick search panel</li>
+                    <li>Menu bar access to recent bookmarks</li>
+                    <li>Folders, tags, and smart folders for organization</li>
+                    <li>iCloud sync across devices</li>
+                    <li>In-app update checking</li>
+                </ul>
+            ]]></description>
+            <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/jhasubhash/links-app/releases/download/v1.0.0/Links-1.0.0-arm64.dmg"
+                sparkle:edSignature="sM+J2qj33vihC8/Ra4N628T6HUR6oxe/x7YUT5IliQVTry9SPNgG30Iq/R0Y+X2TPrncCBLPxPFxB/UIOiEdBg=="
+                length="3151694"
+                type="application/octet-stream" />
+        </item>
+
+    </channel>
+</rss>

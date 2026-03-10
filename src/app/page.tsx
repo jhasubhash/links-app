@@ -29,9 +29,16 @@ export default function Home() {
             quick save from any browser, and seamless iCloud sync.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <span className="px-8 py-4 bg-blue-600 rounded-full font-semibold text-lg">
-              Coming Soon
-            </span>
+            <a
+              href="https://github.com/jhasubhash/links-app/releases/download/v1.0.0/Links-1.0.0-arm64.dmg"
+              className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-full font-semibold text-lg transition-colors flex items-center gap-2"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+              </svg>
+              Download for Mac
+            </a>
             <a
               href="#features"
               className="px-8 py-4 bg-white/10 hover:bg-white/20 rounded-full font-semibold text-lg transition-colors"
@@ -39,6 +46,7 @@ export default function Home() {
               Learn More
             </a>
           </div>
+          <p className="text-sm text-zinc-500 mt-4">Version 1.0.0 &middot; macOS 14.0+ &middot; Apple Silicon</p>
         </div>
       </header>
 
@@ -177,12 +185,33 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Coming Soon Section */}
+      {/* Download Section */}
       <section id="download" className="container mx-auto px-6 py-24 text-center">
-        <h2 className="text-4xl font-bold mb-6">Coming Soon</h2>
-        <p className="text-xl text-zinc-400 max-w-xl mx-auto">
-          Links is currently in development. Stay tuned for the release.
+        <h2 className="text-4xl font-bold mb-6">Download Links</h2>
+        <p className="text-xl text-zinc-400 max-w-xl mx-auto mb-10">
+          Free to download. Requires macOS 14.0 or later on Apple Silicon.
         </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="https://github.com/jhasubhash/links-app/releases/download/v1.0.0/Links-1.0.0-arm64.dmg"
+            className="inline-flex items-center gap-3 px-10 py-5 bg-blue-600 hover:bg-blue-700 rounded-2xl font-semibold text-xl transition-colors"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+              <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"/>
+              <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"/>
+            </svg>
+            Download for Mac
+          </a>
+          <a
+            href="https://github.com/jhasubhash/links-app/releases/tag/v1.0.0"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-10 py-5 bg-white/10 hover:bg-white/20 rounded-2xl font-semibold text-xl transition-colors"
+          >
+            View Release Notes
+          </a>
+        </div>
+        <p className="text-zinc-500 text-sm mt-6">Version 1.0.0 &middot; Apple Silicon &middot; macOS 14+</p>
       </section>
 
       {/* Footer */}
