@@ -33,7 +33,8 @@
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/jhasubhash/links-app/releases/download/v1.1.0/Links-1.1.0-arm64.dmg"
-                length="4161228"
+                sparkle:edSignature="fS7+obHbwodYoWcSgscqwzHSz8Dzz0Uwe51QNZxWRoX7ZluUzfLSOlhrlE/iu0G1vNGTYymgTyWMomzZR8BMAw=="
+                length="2391999"
                 type="application/octet-stream" />
         </item>
 
