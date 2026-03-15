@@ -30,7 +30,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://github.com/jhasubhash/links-app/releases/download/v1.0.0/Links-1.0.0-arm64.dmg"
+              href="https://github.com/jhasubhash/links-app/releases/download/v1.1.0/Links-1.1.0-arm64.dmg"
               className="px-8 py-4 bg-blue-600 hover:bg-blue-700 rounded-full font-semibold text-lg transition-colors flex items-center gap-2"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
@@ -46,7 +46,7 @@ export default function Home() {
               Learn More
             </a>
           </div>
-          <p className="text-sm text-zinc-500 mt-4">Version 1.0.0 &middot; macOS 14.0+ &middot; Apple Silicon</p>
+          <p className="text-sm text-zinc-500 mt-4">Version 1.1.0 &middot; macOS 14.0+ &middot; Apple Silicon</p>
         </div>
       </header>
 
@@ -193,7 +193,7 @@ export default function Home() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://github.com/jhasubhash/links-app/releases/download/v1.0.0/Links-1.0.0-arm64.dmg"
+            href="https://github.com/jhasubhash/links-app/releases/download/v1.1.0/Links-1.1.0-arm64.dmg"
             className="inline-flex items-center gap-3 px-10 py-5 bg-blue-600 hover:bg-blue-700 rounded-2xl font-semibold text-xl transition-colors"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
@@ -203,7 +203,7 @@ export default function Home() {
             Download for Mac
           </a>
           <a
-            href="https://github.com/jhasubhash/links-app/releases/tag/v1.0.0"
+            href="https://github.com/jhasubhash/links-app/releases/tag/v1.1.0"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-10 py-5 bg-white/10 hover:bg-white/20 rounded-2xl font-semibold text-xl transition-colors"
@@ -211,7 +211,7 @@ export default function Home() {
             View Release Notes
           </a>
         </div>
-        <p className="text-zinc-500 text-sm mt-6">Version 1.0.0 &middot; Apple Silicon &middot; macOS 14+</p>
+        <p className="text-zinc-500 text-sm mt-6">Version 1.1.0 &middot; Apple Silicon &middot; macOS 14+</p>
       </section>
 
       {/* Footer */}

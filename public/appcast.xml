@@ -9,6 +9,35 @@
         <language>en</language>
 
         <item>
+            <title>Version 1.1.0</title>
+            <link>https://jhasubhash.github.io/links-app</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <description><![CDATA[
+                <h2>Links 1.1.0</h2>
+                <ul>
+                    <li>Recently Deleted folder for recovering deleted bookmarks</li>
+                    <li>Batch operations with multi-select (Cmd+Click, Shift+Click)</li>
+                    <li>Set reminders on bookmarks</li>
+                    <li>Collections for temporary bookmark groupings</li>
+                    <li>Domain statistics and timeline views</li>
+                    <li>Link health checker for broken links</li>
+                    <li>Drag and drop URL import</li>
+                    <li>Keyboard navigation in bookmark list</li>
+                    <li>Duplicate URL detection</li>
+                    <li>Improved folder picker with subfolder hierarchy</li>
+                    <li>Context menus on all sidebar items</li>
+                </ul>
+            ]]></description>
+            <pubDate>Sat, 15 Mar 2026 00:00:00 +0000</pubDate>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure
+                url="https://github.com/jhasubhash/links-app/releases/download/v1.1.0/Links-1.1.0-arm64.dmg"
+                length="4161228"
+                type="application/octet-stream" />
+        </item>
+
+        <item>
             <title>Version 1.0.0</title>
             <link>https://jhasubhash.github.io/links-app</link>
             <sparkle:version>1</sparkle:version>
