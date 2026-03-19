@@ -18,14 +18,15 @@
                 <ul>
                     <li>Fixed in-app update installer launch error</li>
                     <li>Removed app sandbox for DMG distribution to enable Sparkle updates</li>
+                    <li>Fixed version not updating after in-app update</li>
                 </ul>
             ]]></description>
-            <pubDate>Sun, 20 Jul 2025 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 19 Mar 2026 00:00:00 +0000</pubDate>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure
                 url="https://github.com/jhasubhash/links-app/releases/download/v1.1.1/Links-1.1.1-arm64.dmg"
-                sparkle:edSignature="QFlSx4vqaeLFKsu21Ix9IDjsLhG/P7URrxsj0KfW3PyfRLE8C7MWUlE+KnDfnVPZyhe5Ja4PiNL8hSqTMfXNAg=="
-                length="2399736"
+                sparkle:edSignature="GBl4reSzQIdHo5cEKKU02RwWnawARoL0TlPZAaFvo92stH1nPTDCkeA9aAlzicljPolzfKsS2ebzT9lL5WOSAA=="
+                length="2399568"
                 type="application/octet-stream" />
         </item>
 
